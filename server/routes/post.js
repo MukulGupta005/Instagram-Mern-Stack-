@@ -23,6 +23,9 @@ router.delete("/deluser", requireLogin, (req, res) => {
   })
 })
 
+// git remote add origin https://github.com/MukulGupta005/Instagram-Mern-Stack-.git
+// git branch -M main
+// git push -u origin main
 
 router.delete('/delpost/:postId', requireLogin, (req, res) => {
     const postId = req.params.postId
